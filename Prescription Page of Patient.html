@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+@media (min-width: 768px) {
+body {
+	display: inline-block !important;
+	min-width: 100% !important;
+}
+}
+.socHead {
+	padding: 12px 0px;
+	color: #fff;
+	border-bottom: 4px solid #c1c1c1;
+}
+.greenBox {
+	background: #deffec;
+	height: auto;
+	color: #000;/* min-height: 400px; */
+}
+.socBox {
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 15px;
+	box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.n1 {
+	color: red;
+	font-size: 26px;
+	font-weight: bold;
+	background: #e9ecef;
+	border-left: 4px solid #28a745;
+	padding: 3px 18px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.n1Section {
+	margin-top: 18px;
+	padding: 10px;
+	background: #dcdcdc;
+}
+/*Dropdown css*/
+        
+.btn-group>.btn-group:not(:last-child)>.btn,  .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+	font-size: 12px;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	width: 100% !important;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	width: 220px;
+	width: 100% !important;
+	border: 1px solid #d1d1d1;
+}
+.bootstrap-select>.dropdown-toggle.bs-placeholder,  .bootstrap-select>.dropdown-toggle.bs-placeholder:hover,  .bootstrap-select>.dropdown-toggle.bs-placeholder:focus,  .bootstrap-select>.dropdown-toggle.bs-placeholder:active {
+	color: #444343;
+	background: #fff;
+	width: 100%;
+	text-align: left;
+}
+.btn:not(:disabled):not(.disabled) {
+	cursor: pointer;
+	text-align: left;
+}
+</style>
+    </head>
+
+    <body>
+<h3 class="text-center bg-success px-2 socHead">Prescription Page of Patient</h3>
+<div class="container-fluid">
+      <h3 class="text-success">Patient demographic data</h3>
+      <hr>
+	<div class="table-responsive">
+      <table class="table border table-striped table-bordered text-center">
+    <tr style="font-weight: bold">
+          <td>Sl.</td>
+          <td>Name</td>
+          <td>Age</td>
+          <td>Gender</td>
+          <td>Registration Number</td>
+          <td>Image</td>
+        </tr>
+    <tr>
+          <td>1.</td>
+          <td>Ranjeet Kumar</td>
+          <td>23</td>
+          <td>Male</td>
+          <td>444778899</td>
+          <td><img src="images/beach.jpg" class="img-thumbnail img-fluid"></td>
+        </tr>
+  </table>
+		</div>
+      <h3 class="text-success">Patient Vitals</h3>
+      <hr>
+	<div class="table-responsive">
+      <table class="table border table-striped table-bordered text-center">
+    <tr style="font-weight: bold">
+          <td>Sl.</td>
+          <td>Height</td>
+          <td>Weight</td>
+          <td>Homoglobin</td>
+          <td>BP</td>
+          <td>Temperature</td>
+        </tr>
+    <tr>
+          <td>1.</td>
+          <td>5' 1</td>
+          <td>53</td>
+          <td>22</td>
+          <td>120/80</td>
+          <td>98 F</td>
+        </tr>
+    
+  </table>
+	</div>
+      <br>
+      <div class="jumbotron socBox">
+      <h4 class="text-center text-danger">Doctor Prescription</h4>
+      <hr class="bg-primary">
+      <form>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Update Patient Vitals</label>
+          <div class="col-sm-9">
+        <input type="email" class="form-control" id="">
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Symptoms and remarks</label>
+          <div class="col-sm-9">
+        <input type="text" class="form-control" id="">
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Investigation and remarks</label>
+          <div class="col-sm-9">
+        <input type="text" class="form-control" id="">
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Dignosis  and remarks</label>
+          <div class="col-sm-9">
+        <textarea placeholder="Dignosis  and remarks"  class="border-gray form-control"></textarea>
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Allergies</label>
+          <div class="col-sm-9">
+        <input type="text" class="form-control" id="">
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Allergies  Type</label>
+          <div class="col-sm-9">
+        <select class="form-select">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Allergies Status</label>
+          <div class="col-sm-9">
+        <input type="text" class="form-control" id="">
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Allergies Remarks</label>
+          <div class="col-sm-9">
+        <textarea placeholder="Allergies Remarks"  class="border-gray form-control"></textarea>
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Medicine </label>
+          <div class="col-sm-9">
+        <input type="text" class="form-control" id="">
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Medicine Frequency </label>
+          <div class="col-sm-9">
+        <input type="text	" class="form-control" id="">
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Medicine Remark </label>
+          <div class="col-sm-9">
+        <textarea placeholder="Medicine Remark"  class="border-gray form-control"></textarea>
+      </div>
+        </div>
+    <div class="form-group row mb-2">
+          <label for=" " class="col-sm-3 col-form-label">Doctor Remark </label>
+          <div class="col-sm-9">
+        <textarea placeholder="Doctor Remark"  class="border-gray form-control"></textarea>
+      </div>
+        </div>
+    <button type="button" class="btn btn-success d-block m-auto">
+    <svg class="svg-inline--fa fa-check-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+          <path fill="currentColor" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+        </svg>
+    <!-- <i class="fas fa-check-circle"></i> Font Awesome fontawesome.com --> <a href="Patient List For Today.html" style="text-decoration: none;color: #fff;color:#fff">Submit</a>
+    </button>
+		 
+    </div>
+		   <br>
+  </form>
+    </div>
+
+<!-- Optional JavaScript --> 
+<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+<script src="js/jquery-3.5.1.slim.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap.bundle.min.js.map"></script> 
+<script src="js/all.js"></script>
+</body>
+</html>
